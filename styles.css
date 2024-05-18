@@ -62,6 +62,25 @@ section {
     border-left: 5px solid #4CAF50;
 }
 
+.experience, .education {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 1rem;
+    border-left: 5px solid #4CAF50;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: auto;
+}
+
+
 .project {
     background: #f4f4f4;
     margin: 10px 0;
